@@ -1,0 +1,20 @@
+<?php
+return [
+    'page_title'             => 'アンケート一覧',
+    'name'                   => 'アンケート',
+    'type'                   => 'アンケート種類',
+    'result'                 => 'アンケート結果',
+    'results'                => 'アンケート結果一覧',
+    'qrcode'                 => 'QRコード',
+    'result_history'         => 'アンケート結果履歴',
+    'successfully_deleted'   => 'を削除しました。',
+    'successfully_added_new' => 'を登録しました。',
+    'successfully_updated'   => 'を更新しました。',
+    'patient'                => '患者',
+    'doctor'                 => 'ドクター',
+    'executives'             => '管理者',
+    'hospital'               => '病院',
+    'hospitals'              => '所属施設',
+    'fail_del_by_anket'      => 'はアンケート結果が存在されているため削除できないです。',
+    'fail_del_by_doctor'     => 'はドクターが存在されているため削除できないです。',
+];

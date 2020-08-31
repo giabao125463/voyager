@@ -1,0 +1,70 @@
+.form-control::-webkit-input-placeholder {
+    opacity: 0.3;
+}
+.fixed-w-40 {
+    width: 40px;
+}
+.fixed-w-60 {
+    width: 60px;
+}
+.fixed-w-80 {
+    width: 80px;
+}
+.fixed-w-100 {
+    width: 100px;
+}
+td.title-question > span::after {
+    content: '．';
+}
+.btn.btn-secondary.active {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.d-flex{
+    display: flex;
+}
+.m-0{
+    margin: 0!important;
+}
+.p-0{
+    padding: 0!important;
+}
+.p-header {
+    padding-left: 18px;
+}
+.w-100{
+    width: 100% !important;
+}
+#anketForm label.error {
+    color: red;
+}
+#anketForm input.error, select.error, textarea.error {
+    border-color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .table-header {
+        vertical-align: top !important;
+        width: 60px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .table-header {
+        vertical-align: top !important;
+        width: 90px;
+    }
+}
+
+.footerSubmit {
+    bottom: 0px;
+    position: fixed;
+    background-color: rgb(0 0 0 / 0.7);
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    padding: 10px 0px;
+    z-index: 1;
+}   

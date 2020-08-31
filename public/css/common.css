@@ -1,0 +1,67 @@
+.text-under-line {
+    text-decoration: underline;
+}
+
+.border-radius-round {
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 0.7rem;
+}
+
+
+/*RESPONSIVE*/
+
+.grid-container--fit {
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    display: grid;
+}
+
+@media only screen and (max-width: 700px) {
+    .border-sp-0 {
+        border: none !important;
+    }
+    .container .understanding thead {
+        display: none;
+    }
+    .container .understanding tbody {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .understanding tbody tr {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .understanding td {
+        border: none;
+    }
+    .container .understanding tbody tr td.title-question {
+        background-color: #f1f1f1;
+    }
+    .container .pregnancy {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .pregnancy-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container .pregnancy label {
+        margin-bottom: 0;
+    }
+    .container .flex-col {
+        display: flex;
+        flex-direction: column;
+    }
+    .w-sp-60 {
+        width: 60% !important;
+    }
+}
+
+.s-text{
+    font-size: 0.8rem;
+}
+
+.modal-footer{
+    border-top: none !important;
+}
